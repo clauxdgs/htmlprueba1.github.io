@@ -1,4 +1,4 @@
-function checkNacionalidad(pais){
+function checkpais(pais){
     if(pais == 'Uruguay'){
         return true;
     }else{
@@ -6,9 +6,9 @@ function checkNacionalidad(pais){
     }
 }
 
-let age = prompt("Cual es tu Pais?", 'Chino');
+let pais = prompt("Cual es tu Pais?", 'China');
 
-if (checkAge(age)){
+if (checkpais(pais)){
     alert("Acceso Concedido");
 }else{
     alert("No puedes ver el contenido!");
