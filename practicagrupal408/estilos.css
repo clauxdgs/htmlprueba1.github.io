@@ -1,7 +1,36 @@
 html{
-    background-color: #B4F2ED;
-    }
+    background-color: #5190ef;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+    body{
+        padding: 15%;
+     }
+
  h1{
-    color: 
-    #B4D7F2;
- }   
+    color: #B4D7F2;
+    text-align: center;
+    text-shadow: black;
+    text-decoration-line: underline;
+    font-size: 45px;
+    margin: 25px;
+ } 
+
+ h2{
+    color:  #E5D2FE;
+    font-size: 35px;
+    font-weight: bolder;
+    font-style: oblique;
+ }
+ 
+ .Parrafo{
+    color: antiquewhite;
+    font-size: 18px;
+    font-style: italic;
+ }
+ .Puntos ul li{
+    color: #B4D7F2;
+    font-size: 15px;
+    font-style: normal;
+ }
+
+ 
