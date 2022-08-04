@@ -1,15 +1,15 @@
-function checkAge(age){
-    if(age >= 18){
+function checkAge(nacionalidad){
+    if(nacionalidad == 'uruguayo' || nacionalidad == 'uruguaya'){
         return true;
     }else{
-        return confirm("Do you have permission from your parents?")
+        return confirm("Amas Uruguay?")
     }
 }
 
-let age = prompt("How old are you?", 18);
+let age = prompt("Cual es tu nacionalidad?", 'Chino');
 
 if (checkAge(age)){
-    alert("Access granted");
+    alert("Acceso Concedido");
 }else{
-    alert("Access danied");
+    alert("No puedes ver el contenido!");
 }
